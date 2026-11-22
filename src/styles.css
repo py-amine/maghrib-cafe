@@ -349,6 +349,28 @@ ul {
   font-size: 10px;
   font-weight: 500;
 }
+
+.menu-group li.is-sold-out {
+  opacity: 0.48;
+}
+
+.menu-group li.is-sold-out strong {
+  text-decoration: line-through;
+}
+
+.sold-out-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  border: 1px solid var(--saffron);
+  color: var(--saffron);
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
 .dot-line {
   flex: 1;
   border-bottom: 1px dotted rgba(243, 233, 212, 0.35);
